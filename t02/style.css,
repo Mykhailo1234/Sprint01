@@ -1,0 +1,41 @@
+
+.test{
+	background-color: black;
+}
+
+.green{
+	background-color: green;
+}
+.orange{
+	background-color: orange;
+}
+.blue{
+	background-color: blue;
+
+}
+.yellow{
+	background-color: yellow;
+}
+.red{
+	background-color: red;
+
+}
+.purple{
+	background-color: purple;
+}
+.buttons {
+  text-align: center;
+}
+th{
+	color: white;
+}
+td {
+  text-align: center; /*текст по центру */
+}
+img {
+	border-radius: 25px; /*заокруглює*/
+   margin-right: 10px;
+   margin-left: 10px;
+   margin-top: 10px;
+   margin-bottom: 8px;
+}

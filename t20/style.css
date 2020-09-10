@@ -1,0 +1,29 @@
+.main {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.ball {
+  width: 150px;
+  height: 150px;
+  border-radius: 300px;
+  background-color: green;
+}
+
+.ball {
+  position: absolute;
+  animation: jump 14s infinite;  /*швидкість пересування анімації*/
+}
+
+.ball:hover {
+  background-color: red;
+  transition: 2s;
+
+}
+
+@keyframes jump {
+  0%   { margin-left: 0;}
+  50%  { margin-left: calc(100% - 145px); } /*на всю ширину (100%), не доходячи до краю (145px)*/
+  100% { margin-left: 0;}
+}

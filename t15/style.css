@@ -1,0 +1,13 @@
+
+.hand {
+	display: inline-block;
+}
+.hand img {
+	width: 150px;
+}
+.man img {
+	width: 50px;
+}
+.hand:hover + .man img:nth-child(odd){
+	opacity: 0;
+}

@@ -1,0 +1,66 @@
+            /*==========  загальна таблиця (general table)  ========*/
+body {
+padding: 10px;
+}
+
+.whole_table_border{
+ border: 1px solid #000;
+ max-width: 900px;
+ height: 530px;
+}
+
+                /*===========    ========*/
+
+.first_table {
+    border: 1px solid #000;
+    margin: 30px 20px 0px 20px;
+}
+
+p {
+    position: absolute;
+    top: 100px;
+    left: 48px;
+    background: #fff;
+}
+
+
+                /*=========    ===========*/
+.second_table {
+     border: 1px solid #000;
+     margin: 44px 20px -10px 20px;
+}
+
+.p2 {
+    position: absolute;
+    top: 365px;
+    left: 48px;
+    background: #fff;
+}
+
+
+
+                /*==========     ==========*/
+
+
+.third_table {
+    border: 1px solid #000;
+    margin: -4px 20px 0px 20px;
+}
+
+.p3 {
+    position: absolute;
+    top: 480px;
+    left: 48px;
+    background: #fff;
+}
+
+                /*============    ===========*/
+
+label, textarea {
+	font-size: .8rem;
+    letter-spacing: 1px;
+}
+
+
+
+

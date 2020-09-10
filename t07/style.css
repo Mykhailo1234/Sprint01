@@ -1,0 +1,14 @@
+
+ img {
+ 	display: block;
+ 	position: relative;
+ 	left: 50%;
+ 	margin: 150px 0 0 -150px;
+  text-align: center;
+}
+ 
+ img:hover {
+   transform: rotate(-30deg);
+}
+
+  
